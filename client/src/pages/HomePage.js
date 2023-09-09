@@ -1,10 +1,17 @@
-import { Col, Container, Row, Button } from "react-bootstrap";
+import { Col, Container, Row, Button, Carousel } from "react-bootstrap";
 import routes from "../routers/routes";
 import { Link } from "react-router-dom";
+import Banner from "../components/banner/banner";
 
 export default function HomePage() {
     return (
+        <>
+
+        {/* Banner */}
+        <Banner/>
+        
         <Container>
+            
             <Row className="mt-5"> 
                 <Col xs={{ span: 12}} md={{ span: 6}} className='mb-5'>
                     <h2>Bienvenid@ al Gestor de Tareas</h2>
@@ -27,5 +34,7 @@ export default function HomePage() {
                 </Col>
             </Row>
         </Container>
+
+        </>
     )
 }
