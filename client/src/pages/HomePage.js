@@ -14,8 +14,8 @@ export default function HomePage() {
             
             <Row className="mt-5"> 
                 <Col xs={{ span: 12}} md={{ span: 6}} className='mb-5'>
-                    <h2>Bienvenid@ al Gestor de Tareas</h2>
-                    <p>Aqui podras gestionar tus proyectos!</p>
+                    <h2>Bienvenid@ al Gestor de la Hermosa</h2>
+                    <p>Aqui podras gestionar tus proyectos de la hermosa!</p>
                     <p>
                         Marca tus tareas como terminadas, agregar,
                         eliminar o actualizar.
@@ -29,7 +29,7 @@ export default function HomePage() {
                     <img 
                         className='img-fluid'
                         src='/img/gitarra.jpg' 
-                        atl='guitarra-lista de tareas' />
+                        atl='guitarra-lista de tareas para la hermosa' />
                     <p>Gestiona tu Tiempo y movilidad</p>
                 </Col>
             </Row>
